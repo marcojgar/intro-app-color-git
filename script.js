@@ -1,3 +1,5 @@
+// COMENTARIO DE PRUEBA //
+
 const redRange = document.getElementById('redRange');
 const greenRange = document.getElementById('greenRange');
 const blueRange = document.getElementById('blueRange');
@@ -9,7 +11,7 @@ const colorDisplay = document.getElementById('colorDisplay');
 const hexCode = document.getElementById('hexCode');
 
 function updateColor() {
-    const red = redRange.value;
+    const red = redRange.value; 
     const green = greenRange.value;
     const blue = blueRange.value;
 
